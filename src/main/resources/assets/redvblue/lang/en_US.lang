@@ -1,0 +1,28 @@
+item.mc_helmet.name=Spartan Helmet
+item.mc_chestplate.name=Spartan Chestplate
+item.mc_leggings.name=Spartan Leggings
+item.mc_boots.name=Spartan Boots
+
+item.mcr_helmet.name=Red Spartan Helmet
+item.mcr_chestplate.name=Red Spartan Chestplate
+item.mcr_leggings.name=Red Spartan Leggings
+item.mcr_boots.name=Red Spartan Boots
+
+item.mcb_helmet.name=Blue Spartan Helmet
+item.mcb_chestplate.name=Blue Spartan Chestplate
+item.mcb_leggings.name=Blue Spartan Leggings
+item.mcb_boots.name=Blue Spartan Boots
+
+item.redbrick.name=Red Stone Brick
+item.redhbrick.name=Half Red Stone Brick
+item.bluehbrick.name=Blue Stone Brick
+item.bluebrick.name=Half Blue Stone Brick
+
+item.invis_cloak.name=Invisibility Cloak
+
+tile.blueBricks.name=Blue Aligned Cobblestone Brick
+tile.redBricks.name=Red Aligned Cobblestone Brick
+tile.bluefBricks.name=Blue French Cobblestone
+tile.redfBricks.name=Red French Cobblestone
+
+itemGroup.RedVBlue=Red VS Blue Content Pack
