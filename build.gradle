@@ -17,12 +17,12 @@ buildscript {
 
 apply plugin: 'forge'
 
-version = "1.5-Github"
+version = "1.7.10-1.3"
 group= "com.themastergeneral.redvblue" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "Red VS Blue Content Pack"
 
 minecraft {
-    version = "1.7.10-10.13.4.1566-1.7.10"
+    version = "1.7.10-10.13.4.1614-1.7.10"
     runDir = "eclipse"
 }
 

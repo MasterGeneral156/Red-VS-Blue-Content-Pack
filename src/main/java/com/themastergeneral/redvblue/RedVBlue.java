@@ -12,20 +12,18 @@ import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
-import net.minecraft.item.ItemRecord;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.util.EnumHelper;
 import net.minecraft.creativetab.CreativeTabs;
 
 import com.themastergeneral.redvblue.Armor;
 import com.themastergeneral.redvblue.items.*;
-import com.themastergeneral.redvblue.MusicDisc;
 
 @Mod(modid = RedVBlue.MODID, version = RedVBlue.VERSION, name = RedVBlue.NAME)
 
 public class RedVBlue {
 	public static final String MODID = "RedVBlue";
-    public static final String VERSION = "1.4";
+    public static final String VERSION = "1.3";
     public static final String NAME = "Red VS Blue";
     
     public static final ArmorMaterial GSS = EnumHelper.addArmorMaterial("GSS", 5000, new int[]{4, 9, 7, 4}, 10);
@@ -60,21 +58,12 @@ public class RedVBlue {
 	public static Item bluehbrick;
 	public static Item redbrick;
 	public static Item redhbrick;
-	public static ItemRecord record_aqua;
 	
 	public static CreativeTabs Tab = new CreativeTab("RedVBlue");
     
     @EventHandler
 	public void preinit(FMLPreInitializationEvent event)
-	{
-    	record_aqua=(ItemRecord) new MusicDisc(1,"aqua.ogg").setUnlocalizedName("record_aqua");
-    	//Heads to gunpowder
-    	GameRegistry.addSmelting( new ItemStack(Items.skull,1,4), new ItemStack(Items.gunpowder,25), 0.9f);
-    	GameRegistry.addSmelting( new ItemStack(Items.skull,1,3), new ItemStack(Items.gunpowder,15), 0.9f);
-    	GameRegistry.addSmelting( new ItemStack(Items.skull,1,2), new ItemStack(Items.gunpowder,10), 0.9f);
-    	GameRegistry.addSmelting( new ItemStack(Items.skull,1,1), new ItemStack(Items.gunpowder,20), 0.9f);
-    	GameRegistry.addSmelting( new ItemStack(Items.skull,1,0), new ItemStack(Items.gunpowder,10), 0.9f);
-    	
+	{    	
     	GameRegistry.registerItem(MCHelmet = new Armor("mc_helmet", GSS, "mc", 0), "mc_helmet"); //0 for helmet
     	GameRegistry.registerItem(MCChestplate = new Armor("mc_chestplate", GSS, "mc", 1), "mc_chestplate"); // 1 for chestplate
     	GameRegistry.registerItem(MCLeggings = new Armor("mc_leggings", GSS, "mc", 2), "mc_leggings"); // 2 for leggings
@@ -105,7 +94,6 @@ public class RedVBlue {
     	GameRegistry.registerItem(redbrick, "redbrick");
     	redhbrick = new RedHBrick();
     	GameRegistry.registerItem(redhbrick, "redhbrick");
-    	GameRegistry.registerItem(record_aqua, "record_aqua");
     	
     	//Shaped recipe for MCHelmet.
     	GameRegistry.addRecipe(new ItemStack(MCHelmet), new Object[]{
