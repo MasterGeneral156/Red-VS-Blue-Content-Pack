@@ -1,0 +1,7 @@
+{
+    "parent": "redvblue:blocks/blue_aligned_brick",
+    "textures":
+	{
+        "inventory": "redvblue:blocks/blue_aligned_brick"
+    }
+}

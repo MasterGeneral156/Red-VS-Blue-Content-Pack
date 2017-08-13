@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "redvblue:blue_aligned_brick",
+  "pattern": [
+    "RR",
+	"RR"
+  ],
+  "key": {
+    "R": {
+      "item": "redvblue:bluebrick"
+    }
+  },
+  "result": {
+    "item": "redvblue:blue_aligned_brick",
+    "count": 4
+  }
+}

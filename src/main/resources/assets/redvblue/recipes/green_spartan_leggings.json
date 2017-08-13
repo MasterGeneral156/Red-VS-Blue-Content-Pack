@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "redvblue:mc_leggings",
+    "pattern": [
+        "IDI",
+		"IGI",
+		"I I"
+    ],
+    "key": {
+		"I": [{"type": "forge:ore_dict", "ore": "blockIron"}],
+		"D": [{"type": "forge:ore_dict", "ore": "gemDiamond"}],
+		"G": [{"type": "forge:ore_dict", "ore": "dyeGreen"}]
+    },
+    "result": {
+        "item": "redvblue:mc_leggings",
+		"count": 1
+		}
+}

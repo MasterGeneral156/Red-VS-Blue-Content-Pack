@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "redvblue:mcb_boots",
+    "pattern": [
+        "D D",
+		"IGI"
+    ],
+    "key": {
+		"I": [{"type": "forge:ore_dict", "ore": "blockIron"}],
+		"D": [{"type": "forge:ore_dict", "ore": "gemDiamond"}],
+		"G": [{"type": "forge:ore_dict", "ore": "dyeBlue"}]
+    },
+    "result": {
+        "item": "redvblue:mcb_boots",
+		"count": 1
+		}
+}

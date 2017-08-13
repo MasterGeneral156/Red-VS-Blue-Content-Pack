@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "redvblue:redbrick",
+    "pattern": [
+        "BBB",
+		"BDB",
+		"BBB"
+    ],
+    "key": {
+		"B": [{"type": "forge:ore_dict", "ore": "ingotBrick"}],
+		"D": [{"type": "forge:ore_dict", "ore": "dyeRed"}]
+    },
+    "result": {
+        "item": "redvblue:redbrick",
+		"count": 8
+		}
+}

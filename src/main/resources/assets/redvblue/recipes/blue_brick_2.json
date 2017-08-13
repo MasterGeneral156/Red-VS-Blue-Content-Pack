@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "redvblue:bluebrick",
+    "pattern": [
+        "B",
+		"S",
+		"B"
+    ],
+    "key": {
+		"B": { "item": "redvblue:bluehalfbrick" },
+		"S": [{"type": "forge:ore_dict", "ore": "slimeball"}]
+    },
+    "result": {
+        "item": "redvblue:bluebrick",
+		"count": 1
+		}
+}

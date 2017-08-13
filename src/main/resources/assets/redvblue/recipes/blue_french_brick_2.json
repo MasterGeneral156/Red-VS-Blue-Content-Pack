@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "redvblue:blue_french_brick",
+  "pattern": [
+    "HR",
+	"RH"
+  ],
+  "key": {
+    "R": {
+      "item": "redvblue:bluebrick"
+    },
+	"H": {
+      "item": "redvblue:bluehalfbrick"
+    }
+  },
+  "result": {
+    "item": "redvblue:blue_french_brick",
+    "count": 4
+  }
+}

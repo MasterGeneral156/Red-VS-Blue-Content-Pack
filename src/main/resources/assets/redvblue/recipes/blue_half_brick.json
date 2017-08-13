@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "redvblue:bluehalfbrick",
+  "ingredients": [
+    {
+      "item": "redvblue:bluebrick"
+    }
+  ],
+  "result": {
+    "item": "redvblue:bluehalfbrick",
+    "count": 2
+  }
+}

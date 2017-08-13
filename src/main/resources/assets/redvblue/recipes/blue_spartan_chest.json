@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "redvblue:mcb_chestplate",
+    "pattern": [
+        "IGI",
+		"IDI",
+		"III"
+    ],
+    "key": {
+		"I": [{"type": "forge:ore_dict", "ore": "blockIron"}],
+		"D": [{"type": "forge:ore_dict", "ore": "gemDiamond"}],
+		"G": [{"type": "forge:ore_dict", "ore": "dyeBlue"}]
+    },
+    "result": {
+        "item": "redvblue:mcb_chestplate",
+		"count": 1
+		}
+}
