@@ -18,7 +18,7 @@ public class RedVBlue {
 	// Important mod info, yo.
 	public static final String MODID = "redvblue";
 	public static final String MODNAME = "Red VS Blue";
-	public static final String VERSION = "2.1";
+	public static final String VERSION = "2.1.1";
 	public static final String DEPENDENCIES = "required-after:ctdcore@[1.2,]";
 	public static final String acceptedMinecraftVersions = "1.12.2";
 	public static final String updateJSON = "https://raw.githubusercontent.com/MasterGeneral156/Version/master/RedVSBlue.json";
@@ -31,7 +31,8 @@ public class RedVBlue {
 	public static RedVBlue instance = new RedVBlue();
 
 	// Call the proxies so that they load on the correct side.
-	@SidedProxy(clientSide = "com.themastergeneral.redvblue.proxy.ClientProxy", serverSide = "com.themastergeneral.redvblue.proxy.ServerProxy")
+	@SidedProxy(clientSide = "com.themastergeneral.redvblue.proxy.ClientProxy", 
+				serverSide = "com.themastergeneral.redvblue.proxy.ServerProxy")
 	// Load common proxy, since it loads information needed for both server and
 	// client.
 	public static CommonProxy proxy;
@@ -40,6 +41,7 @@ public class RedVBlue {
 	// Loading event handlers.
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent e) {
+		logger = e.getModLog();
 		proxy.preInit(e);
 	}
 
