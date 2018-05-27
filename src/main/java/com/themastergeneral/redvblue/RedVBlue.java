@@ -20,11 +20,11 @@ public class RedVBlue {
 	// Important mod info, yo.
 	public static final String MODID = "redvblue";
 	public static final String MODNAME = "Red VS Blue";
-	public static final String VERSION = "2.1.2";
+	public static final String VERSION = "2.1.3";
 	public static final String DEPENDENCIES = "required-after:ctdcore@[1.2,]";
 	public static final String acceptedMinecraftVersions = "1.12.2";
 	public static final String updateJSON = "https://raw.githubusercontent.com/MasterGeneral156/Version/master/RedVSBlue.json";
-	public static final String FingerPrint = "441b509a0f58a0ef41aca8daf1be20d96287635e";
+	public static final String FingerPrint = "5101015479fe39f20b47f365472250d312a50a57";
 
 	// Initialize the creative tab for the mod
 	public static final CreativeTab creativeTab = new CreativeTab();
@@ -44,6 +44,7 @@ public class RedVBlue {
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent e) {
 		logger = e.getModLog();
+		logger.info("Red VS Blue is loading.");
 		proxy.preInit(e);
 	}
 
@@ -55,6 +56,7 @@ public class RedVBlue {
 	@EventHandler
 	public void postInit(FMLPostInitializationEvent e) {
 		proxy.postInit(e);
+		logger.info("Red VS Blue has loaded completely.");
 	}
 
 	@EventHandler
